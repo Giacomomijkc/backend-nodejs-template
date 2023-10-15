@@ -14,24 +14,18 @@ Follow these steps to get your backend up and running:
   git clone https://github.com/Giacomomijkc/backend-nodejs-template.git
 ```
 
-2) Navigate to the project folder and initialize it by running:
-
-```bash
-  npm init -y
-```
-
-3) Install the required dependencies:
+2) Install the required dependencies:
 
 ```bash
   npm install
 ```
 
-4) Create an environment file (.env) in the project root directory and include the link to your MongoDB database. Add the following line to your .env file:
+3) Create an environment file (.env) in the project root directory and include the link to your MongoDB database. Add the following line to your .env file:
 
 ```bash
   MONGO_DB_URL="your-mongodb-url"
 ```
-5) Start the server by running:
+4) Start the server by running:
 
 ```bash
   npm run dev
